@@ -1,4 +1,11 @@
-function saludar(){
-    return <h1>¡Bienvenidos a React!</h1>
+function Saludar(){
+    const estilos={
+        backgroundColor:'#001f3d',
+        color: "white",
+        borderRadius: '10px',
+        padding: '20px',
+        textAlign:"center"
+    }
+    return <h1 style={estilos}>¡Bienvenidos a React!</h1>
 }
-export default saludar;
+export default Saludar;
